@@ -1,6 +1,6 @@
 # BigCommerce B2B Edition Order Integration Reference
 
-This repository is a reference for how to integrate orders into a tracking system external to BigCommerce when using the Invoice Portal with B2B Edition and how to access the Order Metafield that will identify different types of orders placed. Note that some of this functionality may change once BigCommerce releases the capability to execute Split Payments on Orders, which is projected for H2 2024.
+This repository is a reference for how to integrate orders into a tracking system external to BigCommerce when using the Invoice Portal with B2B Edition. It provides guidance on how to access an Order Metafield that will identify different types of orders placed. Note that some of this functionality may change once BigCommerce releases the capability to execute Split Payments on Orders, which is projected for H2 2024.
 
 **Please note that this repository should only be used for testing and reference and should not be used without further review**  
 
