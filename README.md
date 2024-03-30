@@ -30,6 +30,8 @@ _STORE_HASH_
 _ACCESS_TOKEN_  
 _CLIENT_ID_  
 
+<br />
+
 Run ```node index.js``` to test your requests and see console logs relating to desired data.
 
 
