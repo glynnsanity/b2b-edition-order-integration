@@ -6,6 +6,7 @@ This repository is a reference for how to integrate orders into a tracking syste
 
 
 
+
 ## Background
 
 For additional context, in BigCommerce B2B Edition, as of 3/30/2024, Invoices are paid through the BigCommerce Checkout. When this checkout is completed, an Order is created which will contain a Digital Product whose price is dynamically set to the amount that a Company needs to pay on an Invoice. Within the base functionality of BigCommerce, this means that there will now be an additional set of Orders that only relate to Invoice Payments. The initial Purchase Order and these Invoice Orders are both accessible in the Order View and in the API, but have now been set with a metafield that help to differentiate between them for identification. 
