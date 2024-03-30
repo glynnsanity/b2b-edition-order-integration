@@ -19,6 +19,7 @@ This sample project intends to provide a base for solving the added complexity i
 
 A recommended approach to this problem set would be using webhooks to listen for placed orders and make requests to the API with the specific Order ID that is provided by the webhook. For this project, we're going to outline another potential solution which is periodically retrieving Orders from the BigCommerce APIs to detect any new Orders placed, then commit whatever actions necessary upon that detection.
 
+<br />
 
 ## Usage
 
