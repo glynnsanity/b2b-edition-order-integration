@@ -19,7 +19,10 @@ A recommended approach to this problem set would be using webhooks to listen for
 
 Clone or fork this repository and run ``` npm install ```
 
-Add your .env variables as outlined in the .env.example file: STORE_HASH, ACCESS_TOKEN, CLIENT_ID
+Add your .env variables as outlined in the .env.example file: 
+_STORE_HASH_
+_ACCESS_TOKEN_
+_CLIENT_ID_
 
 Run ```node index.js``` to test your requests and see console logs relating to desired data.
 
