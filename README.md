@@ -8,7 +8,7 @@ For additional context, in BigCommerce B2B Edition, as of 3/30/2024, Invoices ar
 
 This metafield is called **"orderType"** and can either have the value of: **_"online order"_** which will be set on the initial Purchase Order or on an order that contains actual products in the merchant Catalog, and **_"invoice payment"_** which will be set on the separate orders that are placed to facilitate payments on an Invoice when following the Invoice Portal payment flow. 
 
-In the Orders View within the Control Panel, there isn't anything Out of Box that will highlight an Order as being an Invoice Payment besides the Digital Product being present within the Cart view. If visibility of Orders and clear differentiation between these different order types is needed within the Orders View, there will need to be a process to make this clear for back end users, whether through Order Status updates or other means, since metafields are not displayed within the BigCommerce Control Panel.
+In the Orders View within the Control Panel, there isn't anything Out of Box that will highlight an Order as being an Invoice Payment besides the Digital Product being present within the Cart view. If visibility of Orders and clear differentiation between these different order types is needed within the Orders View, there will need to be a process to make this clear for back end users, whether through Order Status updates or other means, since metafields are not displayed within the BigCommerce Control Panel and can only be accessed via API.
 
 This sample project intends to provide a base for solving the added complexity in integrating Orders, when using the B2B Edition Invoice Portal, with other systems. 
 
